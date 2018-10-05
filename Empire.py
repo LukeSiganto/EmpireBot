@@ -42,4 +42,4 @@ async def on_ready():
 async def on_server_join(ser):
     await bot.send_message(ser.default_channel, 'A surprise to be sure but a welcome one!'.format(ser.name))
 
-client.run('NDk3MzE5NzQ3OTUyNzA1NTM2.DpiJ7Q.v8rPQoclrcxZe7S5ZD88HYHNatw')
+client.run('token')
