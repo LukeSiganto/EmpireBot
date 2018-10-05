@@ -2,7 +2,11 @@
 import discord
 import random
 import string
+import sys
 
+if sys.version_info[0] < 3:
+    raise Exception("Python 3 or a more recent version is required.")
+    
 client = discord.Client()
 
 def randomLine():
